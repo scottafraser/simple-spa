@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import reallyAdorablePuppy from '../assets/images/download.jpeg';
+import NewDogControl from './NewDogControl'
  
 class Home extends Component {
+  
+
   render() {
     return (
       <div>
-        <img src={reallyAdorablePuppy}/>
-        <h2>HELLO</h2>
+        <NewDogControl />
+        <br />
+        <h2>Watch the puppy grow</h2>
         <p>Cras facilisis urna ornare ex volutpat, et
         convallis erat elementum. Ut aliquam, ipsum vitae
         gravida suscipit, metus dui bibendum est, eget rhoncus nibh
